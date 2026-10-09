@@ -46,3 +46,27 @@ Can a signal produced by hypothalamic GnRH neurons communicate with a receiving 
 
 The anterior pituitary gonadotroph cell was selected as the receiver because it expresses the GnRH receptor (GNRHR), which allows it to respond to GnRH released by hypothalamic GnRH neurons. This communication regulates LH and FSH secretion, connecting hypothalamic signaling with reproductive endocrine function.
 GNRH1 is a candidate signaling gene because its product is associated with reproductive endocrine regulation. The Human Protein Atlas provides expression information that can help evaluate its suitability as a candidate signal produced by the selected sender cell.
+## OmniPath Evidence
+
+| **Component** | **Gene** | **Role** |
+|---|---|---|
+| GnRH (gonadotropin-releasing hormone) | `GNRH1` | Ligand/signal |
+| GnRH receptor | `GNRHR` | Receptor on receiver cell |
+
+OmniPath identified a directed interaction from GNRH1 to GNRHR in *Homo sapiens*. The interaction page displayed 36 references and listed sources including Baccin2019, CellCall, and CellChatDB. This supports the proposed GNRH1–GNRHR relationship for further investigation of GnRH signaling.
+## STRING Network Image and Interpretation
+
+| **Item** | **Information** |
+|---|---|
+| **Enriched process** | To be confirmed using STRING Functional Enrichment |
+| **Relevant pathway** | GnRH receptor-associated G-protein signaling |
+| **Number of proteins** | 11 visible in the network screenshot |
+| **Observed edges** | To be recorded from STRING |
+| **PPI enrichment p-value** | To be recorded from STRING |
+| **Protein 1** | GNAQ – G-protein signaling component associated with receptor-mediated intracellular signaling |
+| **Protein 2** | GNA11 – G-protein alpha subunit involved in intracellular signal transduction |
+| **Protein 3** | GNAS – G-protein alpha subunit involved in signal transduction |
+| **Protein 4** | GNGT2 – G-protein gamma subunit associated with G-protein signaling |
+| **Protein 5** | GNG13 – G-protein gamma subunit associated with G-protein signaling |
+
+The STRING network centered on GNRHR contains proteins associated with G-protein signaling, including GNAQ, GNA11, GNAS, GNGT2, and GNG13. These proteins are candidates for investigating how receptor activation connects to intracellular signaling. STRING edges indicate functional associations and do not necessarily demonstrate direct physical interactions or establish a specific signaling sequence. The network interpretation should therefore be considered alongside OmniPath, IntAct, and supporting literature.
