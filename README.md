@@ -26,7 +26,7 @@ Can a signal produced by hypothalamic GnRH neurons communicate with a receiving 
 | Item | Information |
 |---|---|
 | Sender cell | Hypothalamic GnRH neuron |
-| Candidate gene | `GNRH1` |
+| Candidate gene | GNRH1 |
 | Protein/peptide name | Gonadotropin-releasing hormone 1 (GnRH) |
 | Signal type | Peptide hormone |
 | Expression evidence | The Human Protein Atlas reports GNRH1 expression in hypothalamic neuronal cells and neuronal projections. This supports its association with hypothalamic neurons but does not, by itself, establish expression specifically in GnRH neurons. |
@@ -50,8 +50,8 @@ GNRH1 is a candidate signaling gene because its product is associated with repro
 
 | **Component** | **Gene** | **Role** |
 |---|---|---|
-| GnRH (gonadotropin-releasing hormone) | `GNRH1` | Ligand/signal |
-| GnRH receptor | `GNRHR` | Receptor on receiver cell |
+| GnRH (gonadotropin-releasing hormone) | GNRH1 | Ligand/signal |
+| GnRH receptor | GNRHR | Receptor on receiver cell |
 
 OmniPath identified a directed interaction from GNRH1 to GNRHR in *Homo sapiens*. The interaction page displayed 36 references and listed sources including Baccin2019, CellCall, and CellChatDB. This supports the proposed GNRH1–GNRHR relationship for further investigation of GnRH signaling.
 ## STRING Network Image and Interpretation
@@ -69,4 +69,4 @@ OmniPath identified a directed interaction from GNRH1 to GNRHR in *Homo sapiens*
 | **Protein 4** | GNGT2 – G-protein gamma subunit associated with G-protein signaling |
 | **Protein 5** | GNG13 – G-protein gamma subunit associated with G-protein signaling |
 
-The STRING network was generated using `GNRHR` as the receptor-centered protein. The network contained 11 visible proteins, including G-protein signaling components such as `GNAQ`, `GNA11`, `GNAS`, `GNGT2`, and `GNG13`. These proteins may help connect GnRH receptor activation to intracellular signal transduction. Other proteins in the network included `GNRH1`, `GNRH2`, `KISS1`, and `KISS1R`, which are associated with reproductive hormone signaling. The network therefore supports further investigation of G-protein-associated signaling around GNRHR. Relevant proteins selected for the final model were `GNAQ`, `GNA11`, `GNAS`, and `GNG13`. 
+The STRING network was generated using GNRHR as the receptor-centered protein. The network contained 11 visible proteins, including G-protein signaling components such as GNAQ, GNA11, GNAS, GNGT2, and GNG13. These proteins may help connect GnRH receptor activation to intracellular signal transduction. Other proteins in the network included GNRH1, GNRH2, KISS1, and KISS1R, which are associated with reproductive hormone signaling. The network therefore supports further investigation of G-protein-associated signaling around GNRHR. Relevant proteins selected for the final model were GNAQ, GNA11, GNAS, and GNG13. 
