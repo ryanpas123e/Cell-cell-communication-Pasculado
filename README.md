@@ -97,39 +97,49 @@ After receptor activation, the proposed pathway involves G-protein signaling thr
 Therefore, the overall model combines database-supported observations with biological inference. The evidence supports the GNRH1–GNRHR relationship and a reported GNRHR–CAMK1D association, while the complete intracellular pathway is based on established biological mechanisms rather than the STRING network alone. Further experiments would be needed to confirm the complete signaling pathway specifically in the proposed sender–receiver cell system.
 
 ## Laboratory Activity Questions
+**1. What sender cell did you choose, and in what tissue or biological context does it act?**
 
-** 1. What sender cell did you choose, and in what tissue or biological context does it act?
+- Hypothalamic GnRH neuron, acting in reproductive endocrine regulation by releasing gonadotropin-releasing hormone (GnRH), which signals to anterior pituitary gonadotrophs.
 
-Hypothalamic GnRH neuron, acting in reproductive endocrine regulation by communicating with anterior pituitary gonadotroph cells.
+**2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?**
 
-** 2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?
+- GnRH, encoded by **GNRH1**. The Human Protein Atlas (HPA) provides information associating GNRH1 with hypothalamic neuronal expression, supporting its selection as the candidate ligand.
 
-Gonadotropin-releasing hormone (GnRH), encoded by GNRH1. The Human Protein Atlas (HPA) provides information associating GNRH1 with hypothalamic neuronal expression, supporting its selection as the candidate ligand.
+**3. What receptor receives the signal, and which receiver cell did you select?**
 
-** 3. What receptor receives the signal, and which receiver cell did you select?
+- **GNRHR** receives GnRH. The selected receiver cell is an anterior pituitary gonadotroph, where GnRH signaling contributes to the regulation of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) synthesis and secretion.
 
-GNRHR receives the signal. The receiver cell is an anterior pituitary gonadotroph, where GnRH signaling helps regulate LH and FSH synthesis and secretion.
+**4. What type of cell-to-cell signaling is represented: paracrine, endocrine, autocrine, or contact-dependent?**
 
-** 4. What type of cell-to-cell signaling is represented: paracrine, endocrine, autocrine, or contact-dependent?
+- **Endocrine signaling**, more specifically neuroendocrine signaling. GnRH released by hypothalamic neurons travels through the hypophyseal portal circulation to reach anterior pituitary gonadotrophs.
 
-Endocrine signaling, more specifically neuroendocrine signaling. GnRH travels from hypothalamic neurons to the anterior pituitary through the hypophyseal portal circulation.
+**5. Which proteins in your STRING network appear most relevant to the receptor-associated response? Explain briefly.**
 
-** 5. Which proteins in your STRING network appear most relevant to the receptor-associated response? Explain briefly.
+- **GNAQ and GNA11** are relevant candidates because their encoded G-protein alpha subunits are associated with Gq/11 signaling, which can activate phospholipase C-beta (PLCβ). **GNAS** also appeared in my STRING network as a G-protein-associated candidate. However, the network alone does not establish the specific function of every protein in the selected receiver cell.
 
-GNAQ and GNA11 are relevant because their encoded G-protein alpha subunits are associated with Gq/11 signaling, which can activate PLCβ and downstream calcium signaling. GNAS is another G-protein-associated candidate in the network, but its presence alone does not establish its specific role in the selected pathway.
+**6. What enriched pathway or biological process is consistent with your proposed mechanism?**
 
-** 6. What enriched pathway or biological process is consistent with your proposed mechanism?
+- The proposed mechanism is consistent with **Gq/11–PLCβ signaling and calcium-mediated regulation of gonadotropin secretion**. GnRH receptor activation can stimulate PLCβ, generating IP3 and DAG. IP3 promotes calcium release from intracellular stores, while DAG contributes to protein kinase C (PKC) activation. These mechanisms are supported by published literature. A specific STRING-enriched pathway, FDR, or enrichment p-value cannot be reported without verifying the enrichment results from my own STRING analysis.
 
-The literature-supported mechanism is Gq/11–PLCβ signaling, involving IP3 production, calcium mobilization, DAG, and PKC activation. These processes contribute to the regulation of LH and FSH synthesis and secretion. I have not confirmed a specific enriched pathway, FDR, or enrichment p-value from my STRING results.
+**7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?**
 
-** 7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?
+- IntAct record **EBI-21894414** reports a physical association between **GNRHR and CAMK1D**, detected using anti-tag coimmunoprecipitation in human HEK293T cells. The record is associated with Huttlin et al. (2017), PMID 28514442. This supports a reported physical association but does not establish direct binding or confirm that the interaction occurs in anterior pituitary gonadotrophs.
 
-IntAct record EBI-21894414 reports a physical association between GNRHR and CAMK1D, detected by anti-tag coimmunoprecipitation in human HEK293T cells. The record is associated with Huttlin et al. (2017), PMID 28514442. This supports a reported physical association, but it does not establish direct binding or demonstrate the interaction in anterior pituitary gonadotrophs.
+**8. Which parts of your final model are strongly supported, and which parts remain an inference?**
 
-** 8. Which parts of your final model are strongly supported, and which parts remain an inference?
+- **Strongly supported by the selected database records:** OmniPath reports the GNRH1–GNRHR ligand–receptor relationship, while IntAct reports a physical association between GNRHR and CAMK1D. **Supported by published literature:** Gq/11–PLCβ signaling, calcium mobilization, and the involvement of these mechanisms in gonadotropin regulation. **Inferred in my model:** The complete signaling sequence occurring in the selected sender–receiver cell pair and the resulting LH and FSH response, because the database records do not independently demonstrate every step in these specific cells.
 
-Strongly supported: The GNRH1–GNRHR ligand–receptor relationship reported by OmniPath and the GNRHR–CAMK1D physical association reported by IntAct. Supported by published literature: Gq/11–PLCβ signaling and its involvement in calcium mobilization and gonadotropin regulation. Inferred: The complete signaling sequence occurring in the selected sender–receiver cell pair and the resulting LH and FSH response, because the selected database results do not independently establish every step in those specific cells.
+**9. What cellular response is expected in the receiver cell, and why?**
 
-** 9. What cellular response is expected in the receiver cell, and why?
+- Regulation of **LH and FSH synthesis and secretion**. GnRH binding to GNRHR initiates intracellular signaling that contributes to gonadotropin regulation, supporting reproductive endocrine function.
 
-Regulation of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) synthesis and secretion. GnRH binding to GNRHR activates intracellular signaling pathways that contribute to gonadotropin regulation, supporting reproductive endocrine function.
+## References
+
+1. Human Protein Atlas. [GNRH1](https://www.proteinatlas.org/ENSG00000147437-GNRH1)
+2. OmniPath. [OmniPath resources](https://omnipathdb.org/)
+3. STRING. [STRING protein association networks](https://string-db.org/)
+4. IntAct. [Molecular interaction database](https://www.ebi.ac.uk/intact/)
+5. Huttlin, E. L., et al. (2017). *Architecture of the human interactome defines protein communities and disease networks*. Nature. [https://doi.org/10.1038/nature22366](https://doi.org/10.1038/nature22366)
+6. [GnRH signaling review](https://pmc.ncbi.nlm.nih.gov/articles/PMC2923852/)
+7. [GnRH-induced calcium signaling](https://pmc.ncbi.nlm.nih.gov/articles/PMC3786263/)
+8. [GnRH: A Key Regulator of FSH](https://academic.oup.com/endo/article/160/1/57/5224759)
