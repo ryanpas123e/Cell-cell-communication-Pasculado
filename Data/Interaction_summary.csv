@@ -1,0 +1,8 @@
+Evidence source,Molecule/Interaction,Role,Evidence/Result
+HPA,GNRH1,Signal,"Expression information supports the association of GNRH1 with hypothalamic neuronal expression"
+OmniPath,GNRH1 → GNRHR,Ligand–receptor,"Directed ligand–receptor interaction reported; supports the proposed GnRH signaling relationship"
+STRING,GNRHR network,Downstream network,"GNAQ, GNA11, and GNAS identified as G-protein-associated candidates"
+Literature,Gq/11–PLCβ signaling,Signaling mechanism,"GnRH receptor activation can stimulate PLCβ, IP3/DAG signaling, calcium mobilization, and PKC activation"
+Literature,Regulation of LH and FSH,Cellular response,"GnRH signaling contributes to the regulation of LH and FSH synthesis and secretion"
+IntAct,GNRHR–CAMK1D,Experimental interaction,"Physical association reported by anti-tag coimmunoprecipitation in human HEK293T cells; EBI-21894414"
+IntAct,Huttlin et al. (2017),Reference,"Architecture of the human interactome defines protein communities and disease networks; PMID 28514442; DOI: 10.1038/nature22366"
