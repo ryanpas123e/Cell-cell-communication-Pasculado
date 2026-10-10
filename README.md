@@ -131,15 +131,29 @@ Therefore, the overall model combines database-supported observations with biolo
 
 **9. What cellular response is expected in the receiver cell, and why?**
 
-- Regulation of **LH and FSH synthesis and secretion**. GnRH binding to GNRHR initiates intracellular signaling that contributes to gonadotropin regulation, supporting reproductive endocrine function.
+- Regulation of LH and FSH synthesis and secretion. GnRH binding to GNRHR initiates intracellular signaling that contributes to gonadotropin regulation, supporting reproductive endocrine function.
+
 
 ## References
 
-1. Human Protein Atlas. [GNRH1](https://www.proteinatlas.org/ENSG00000147437-GNRH1)
-2. OmniPath. [OmniPath resources](https://omnipathdb.org/)
-3. STRING. [STRING protein association networks](https://string-db.org/)
-4. IntAct. [Molecular interaction database](https://www.ebi.ac.uk/intact/)
-5. Huttlin, E. L., et al. (2017). *Architecture of the human interactome defines protein communities and disease networks*. Nature. [https://doi.org/10.1038/nature22366](https://doi.org/10.1038/nature22366)
-6. [GnRH signaling review](https://pmc.ncbi.nlm.nih.gov/articles/PMC2923852/)
-7. [GnRH-induced calcium signaling](https://pmc.ncbi.nlm.nih.gov/articles/PMC3786263/)
-8. [GnRH: A Key Regulator of FSH](https://academic.oup.com/endo/article/160/1/57/5224759)
+Durán-Pastén, M. L., & Fiordelisio, T. (2013). GnRH-induced Ca2+ signaling patterns and gonadotropin secretion in pituitary gonadotrophs: Functional adaptations to both ordinary and extraordinary physiological demands. *Frontiers in Endocrinology, 4*, Article 127. https://doi.org/10.3389/fendo.2013.00127
+
+Huttlin, E. L., Bruckner, R. J., Paulo, J. A., Cannon, J. R., Ting, L., Baltier, K., Colby, G., Gebreab, F., Gygi, M. P., Parzen, H., Szpyt, J., Tam, S., Zarraga, G., Pontano-Vaites, L., Swarup, S., White, A. E., Schweppe, D. K., Rad, R., Erickson, B. K., ... Harper, J. W. (2017). Architecture of the human interactome defines protein communities and disease networks. *Nature, 545*(7655), 505–509. https://doi.org/10.1038/nature22366
+
+Orchard, S., Ammari, M., Aranda, B., Breuza, L., Briganti, L., Broackes-Carter, F., Campbell, N. H., Chavali, G., Chen, C., del-Toro, N., Duesbury, M., Dumousseau, M., Galea, D., Hinz, U., Iannone, F., Jagannathan, S., Jimenez, R., Khadake, J., Lagreid, A., ... Hermjakob, H. (2014). The MIntAct project—IntAct as a common curation platform for 11 molecular interaction databases. *Nucleic Acids Research, 42*(D1), D358–D363. https://doi.org/10.1093/nar/gkt1115
+
+Szklarczyk, D., Kirsch, R., Koutrouli, M., Nastou, K., Mehryary, F., Hachilif, R., Gable, A. L., Fang, T., Doncheva, N. T., Pyysalo, S., Bork, P., Jensen, L. J., & von Mering, C. (2023). The STRING database in 2023: Protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research, 51*(D1), D638–D646. https://doi.org/10.1093/nar/gkac1000
+
+Stamatiades, G. A., Carroll, R. S., & Kaiser, U. B. (2019). GnRH—A key regulator of FSH. *Endocrinology, 160*(1), 57–67. https://doi.org/10.1210/en.2018-00889
+
+Türei, D., Korcsmáros, T., & Saez-Rodriguez, J. (2016). OmniPath: Guidelines and gateway for literature-curated signaling pathway resources. *Nature Methods, 13*(12), 966–967. https://doi.org/10.1038/nmeth.4077
+
+Uhlén, M., Fagerberg, L., Hallström, B. M., Lindskog, C., Oksvold, P., Mardinoglu, A., Sivertsson, Å., Kampf, C., Sjöstedt, E., Asplund, A., Olsson, I., Edlund, K., Lundberg, E., Navani, S., Szigyarto, C. A., Odeberg, J., Djureinovic, D., Takanen, J. O., Hober, S., ... Pontén, F. (2015). Tissue-based map of the human proteome. *Science, 347*(6220), Article 1260419. https://doi.org/10.1126/science.1260419
+
+Human Protein Atlas. (n.d.). *GNRH1*. Retrieved October 9, 2026, from https://www.proteinatlas.org/ENSG00000147437-GNRH1
+
+IntAct. (n.d.). *Molecular interaction database*. Retrieved October 9, 2026, from https://www.ebi.ac.uk/intact/
+
+OmniPath. (n.d.). *OmniPath: Intra- and intercellular signaling knowledge*. Retrieved October 9, 2026, from https://omnipathdb.org/
+
+STRING. (n.d.). *Protein association networks*. Retrieved October 9, 2026, from https://string-db.org/
