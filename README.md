@@ -103,31 +103,31 @@ Therefore, the overall model combines database-supported observations with biolo
 
 **2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?**
 
-- GnRH, encoded by **GNRH1**. The Human Protein Atlas (HPA) provides information associating GNRH1 with hypothalamic neuronal expression, supporting its selection as the candidate ligand.
+- GnRH, encoded by **GNRH1. The Human Protein Atlas (HPA) provides information associating GNRH1 with hypothalamic neuronal expression, supporting its selection as the candidate ligand.
 
 **3. What receptor receives the signal, and which receiver cell did you select?**
 
-- **GNRHR** receives GnRH. The selected receiver cell is an anterior pituitary gonadotroph, where GnRH signaling contributes to the regulation of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) synthesis and secretion.
+- GNRHR receives GnRH. The selected receiver cell is an anterior pituitary gonadotroph, where GnRH signaling contributes to the regulation of luteinizing hormone (LH) and follicle-stimulating hormone (FSH) synthesis and secretion.
 
 **4. What type of cell-to-cell signaling is represented: paracrine, endocrine, autocrine, or contact-dependent?**
 
-- **Endocrine signaling**, more specifically neuroendocrine signaling. GnRH released by hypothalamic neurons travels through the hypophyseal portal circulation to reach anterior pituitary gonadotrophs.
+- Endocrine signaling, more specifically neuroendocrine signaling. GnRH released by hypothalamic neurons travels through the hypophyseal portal circulation to reach anterior pituitary gonadotrophs.
 
 **5. Which proteins in your STRING network appear most relevant to the receptor-associated response? Explain briefly.**
 
-- **GNAQ and GNA11** are relevant candidates because their encoded G-protein alpha subunits are associated with Gq/11 signaling, which can activate phospholipase C-beta (PLCβ). **GNAS** also appeared in my STRING network as a G-protein-associated candidate. However, the network alone does not establish the specific function of every protein in the selected receiver cell.
+- GNAQ and GNA11 are relevant candidates because their encoded G-protein alpha subunits are associated with Gq/11 signaling, which can activate phospholipase C-beta (PLCβ). GNAS also appeared in my STRING network as a G-protein-associated candidate. However, the network alone does not establish the specific function of every protein in the selected receiver cell.
 
 **6. What enriched pathway or biological process is consistent with your proposed mechanism?**
 
-- The proposed mechanism is consistent with **Gq/11–PLCβ signaling and calcium-mediated regulation of gonadotropin secretion**. GnRH receptor activation can stimulate PLCβ, generating IP3 and DAG. IP3 promotes calcium release from intracellular stores, while DAG contributes to protein kinase C (PKC) activation. These mechanisms are supported by published literature. A specific STRING-enriched pathway, FDR, or enrichment p-value cannot be reported without verifying the enrichment results from my own STRING analysis.
+- The proposed mechanism is consistent with Gq/11–PLCβ signaling and calcium-mediated regulation of gonadotropin secretion**. GnRH receptor activation can stimulate PLCβ, generating IP3 and DAG. IP3 promotes calcium release from intracellular stores, while DAG contributes to protein kinase C (PKC) activation. These mechanisms are supported by published literature. A specific STRING-enriched pathway, FDR, or enrichment p-value cannot be reported without verifying the enrichment results from my own STRING analysis.
 
 **7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?**
 
-- IntAct record **EBI-21894414** reports a physical association between **GNRHR and CAMK1D**, detected using anti-tag coimmunoprecipitation in human HEK293T cells. The record is associated with Huttlin et al. (2017), PMID 28514442. This supports a reported physical association but does not establish direct binding or confirm that the interaction occurs in anterior pituitary gonadotrophs.
+- IntAct record EBI-21894414 reports a physical association between GNRHR and CAMK1D, detected using anti-tag coimmunoprecipitation in human HEK293T cells. The record is associated with Huttlin et al. (2017), PMID 28514442. This supports a reported physical association but does not establish direct binding or confirm that the interaction occurs in anterior pituitary gonadotrophs.
 
 **8. Which parts of your final model are strongly supported, and which parts remain an inference?**
 
-- **Strongly supported by the selected database records:** OmniPath reports the GNRH1–GNRHR ligand–receptor relationship, while IntAct reports a physical association between GNRHR and CAMK1D. **Supported by published literature:** Gq/11–PLCβ signaling, calcium mobilization, and the involvement of these mechanisms in gonadotropin regulation. **Inferred in my model:** The complete signaling sequence occurring in the selected sender–receiver cell pair and the resulting LH and FSH response, because the database records do not independently demonstrate every step in these specific cells.
+- Strongly supported by the selected database records: OmniPath reports the GNRH1–GNRHR ligand–receptor relationship, while IntAct reports a physical association between GNRHR and CAMK1D. Supported by published literature: Gq/11–PLCβ signaling, calcium mobilization, and the involvement of these mechanisms in gonadotropin regulation. Inferred in my model: The complete signaling sequence occurring in the selected sender–receiver cell pair and the resulting LH and FSH response, because the database records do not independently demonstrate every step in these specific cells.
 
 **9. What cellular response is expected in the receiver cell, and why?**
 
