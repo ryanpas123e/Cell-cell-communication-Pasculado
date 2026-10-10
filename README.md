@@ -74,7 +74,7 @@ The STRING network was generated using GNRHR as the receptor-centered protein. T
 ## IntAct Validation
 | **Item** | **Information** |
 |---|---|
-| **Protein pair examined** | `GNRHR` – `CAMK1D` |
+| **Protein pair examined** | GNRHR – CAMK1D |
 | **IntAct record** | [EBI-21894414](https://www.ebi.ac.uk/intact/details/interaction/EBI-21894414) |
 | **Interaction type** | Physical association |
 | **Experimental detection method** | Anti-tag coimmunoprecipitation |
