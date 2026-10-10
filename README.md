@@ -70,3 +70,21 @@ OmniPath identified a directed interaction from GNRH1 to GNRHR in *Homo sapiens*
 | **Protein 5** | GNG13 – G-protein gamma subunit associated with G-protein signaling |
 
 The STRING network was generated using GNRHR as the receptor-centered protein. The network contained 11 visible proteins, including G-protein signaling components such as GNAQ, GNA11, GNAS, GNGT2, and GNG13. These proteins may help connect GnRH receptor activation to intracellular signal transduction. Other proteins in the network included GNRH1, GNRH2, KISS1, and KISS1R, which are associated with reproductive hormone signaling. The network therefore supports further investigation of G-protein-associated signaling around GNRHR. Relevant proteins selected for the final model were GNAQ, GNA11, GNAS, and GNG13. 
+
+## IntAct Validation
+| **Item** | **Information** |
+|---|---|
+| **Protein pair examined** | `GNRHR` – `CAMK1D` |
+| **IntAct record** | [EBI-21894414](https://www.ebi.ac.uk/intact/details/interaction/EBI-21894414) |
+| **Interaction type** | Physical association |
+| **Experimental detection method** | Anti-tag coimmunoprecipitation |
+| **Host organism** | *Homo sapiens* HEK293T embryonic kidney cell |
+| **Positive interaction** | Yes |
+| **Publication** | Huttlin et al. (2017), *Architecture of the human interactome defines protein communities and disease networks* |
+| **Journal** | *Nature* |
+| **Publication reference** | [PubMed: 28514442](https://pubmed.ncbi.nlm.nih.gov/28514442/) |
+| **Evidence conclusion** | Supports a reported physical association; direct binding is not established by this record alone. |
+
+### Interpretation of the Experimental Evidence
+
+The IntAct record reports a physical association between GNRHR and CAMK1D detected by anti-tag coimmunoprecipitation in human HEK293T cells. Although this supports an experimentally observed association, it does not prove direct binding or confirm that the interaction occurs in pituitary gonadotroph cells during GnRH signaling.
