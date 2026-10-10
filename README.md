@@ -135,20 +135,9 @@ Therefore, the overall model combines database-supported observations with biolo
 
 
 ## References
-
-Durán-Pastén, M. L., & Fiordelisio, T. (2013). GnRH-induced Ca2+ signaling patterns and gonadotropin secretion in pituitary gonadotrophs: Functional adaptations to both ordinary and extraordinary physiological demands. *Frontiers in Endocrinology, 4*, Article 127. https://doi.org/10.3389/fendo.2013.00127
-
 Huttlin, E. L., Bruckner, R. J., Paulo, J. A., Cannon, J. R., Ting, L., Baltier, K., Colby, G., Gebreab, F., Gygi, M. P., Parzen, H., Szpyt, J., Tam, S., Zarraga, G., Pontano-Vaites, L., Swarup, S., White, A. E., Schweppe, D. K., Rad, R., Erickson, B. K., ... Harper, J. W. (2017). Architecture of the human interactome defines protein communities and disease networks. *Nature, 545*(7655), 505–509. https://doi.org/10.1038/nature22366
 
 Orchard, S., Ammari, M., Aranda, B., Breuza, L., Briganti, L., Broackes-Carter, F., Campbell, N. H., Chavali, G., Chen, C., del-Toro, N., Duesbury, M., Dumousseau, M., Galea, D., Hinz, U., Iannone, F., Jagannathan, S., Jimenez, R., Khadake, J., Lagreid, A., ... Hermjakob, H. (2014). The MIntAct project—IntAct as a common curation platform for 11 molecular interaction databases. *Nucleic Acids Research, 42*(D1), D358–D363. https://doi.org/10.1093/nar/gkt1115
-
-Szklarczyk, D., Kirsch, R., Koutrouli, M., Nastou, K., Mehryary, F., Hachilif, R., Gable, A. L., Fang, T., Doncheva, N. T., Pyysalo, S., Bork, P., Jensen, L. J., & von Mering, C. (2023). The STRING database in 2023: Protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research, 51*(D1), D638–D646. https://doi.org/10.1093/nar/gkac1000
-
-Stamatiades, G. A., Carroll, R. S., & Kaiser, U. B. (2019). GnRH—A key regulator of FSH. *Endocrinology, 160*(1), 57–67. https://doi.org/10.1210/en.2018-00889
-
-Türei, D., Korcsmáros, T., & Saez-Rodriguez, J. (2016). OmniPath: Guidelines and gateway for literature-curated signaling pathway resources. *Nature Methods, 13*(12), 966–967. https://doi.org/10.1038/nmeth.4077
-
-Uhlén, M., Fagerberg, L., Hallström, B. M., Lindskog, C., Oksvold, P., Mardinoglu, A., Sivertsson, Å., Kampf, C., Sjöstedt, E., Asplund, A., Olsson, I., Edlund, K., Lundberg, E., Navani, S., Szigyarto, C. A., Odeberg, J., Djureinovic, D., Takanen, J. O., Hober, S., ... Pontén, F. (2015). Tissue-based map of the human proteome. *Science, 347*(6220), Article 1260419. https://doi.org/10.1126/science.1260419
 
 Human Protein Atlas. (n.d.). *GNRH1*. Retrieved October 9, 2026, from https://www.proteinatlas.org/ENSG00000147437-GNRH1
 
